@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fanmango</string>
+    <string name="title_activity_results">Search Results</string>
+    <string name="large_text">FirstMovieTitle</string>
+    <string name="action_settings">Settings</string>
+    <string name="userSearch">Enter a movie</string>
+    <string name="noDesc">No description is available for this content.</string>
+    <string name="noResults">No results to display.</string>
+    <string name="title_activity_details_page">Details</string>
+
+</resources>

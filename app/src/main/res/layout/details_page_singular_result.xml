@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/metadata_layout"
+    android:background="@color/accent_material_dark">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/posterSection"
+        android:layout_gravity="top|left"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@color/material_deep_teal_500" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/titleSection"
+        android:layout_gravity="top|right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/posterSection"
+        android:layout_toEndOf="@+id/posterSection"
+        android:layout_alignParentStart="false"
+        android:textSize="35dp"
+        android:layout_above="@+id/descriptionSection"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:background="@color/material_deep_teal_500"
+        android:autoText="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/descriptionSection"
+        android:layout_gravity="center_vertical"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:background="@color/material_deep_teal_500"
+        android:layout_below="@+id/posterSection"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
